@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  background: #fdfcef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+p {
+  margin: 0;
+  line-height: 1.37em;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+section {
+  padding-top: 120px;
+}
+
+.btn {
+  background: #ff6861;
+  border-radius: 100px;
+  color: #ffffff;
+  padding: 22px 70px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  width: 227px;
+  height: 69px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #232323;
+}
+
+.header {
+  padding-top: 60px;
+}
+
+.introtext {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 30px 0px;
+  width: 423px;
+}
+
+.offer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 82px;
+}
+
+.offer {
+  width: 465px;
+  height: 389px;
+}
+
+.offer-img-wrapper {
+  background: linear-gradient(180deg, #ffe195 0%, #ff5b5b 100%);
+  border-radius: 20%;
+  width: 465px;
+  height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-img {
+  width: 255px;
+  height: 255px;
+}
+
+.logo {
+  display: block;
+}
+
+.features-item {
+  display: flex;
+  align-items: center;
+}
+
+.feature {
+  width: 73px;
+  height: 73px;
+  margin-right: 34px;
+  transition: all 1s ease;
+  padding: 5px;
+}
+
+.features-item:hover .feature {
+  border-radius: 30%;
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+}
+
+.feature-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  width: 720px;
+  margin: 70px auto 0 auto;
+}
+
+.feature-text {
+  font-weight: 500;
+}
+
+.practice-wrap {
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  height: 486px;
+}
+
+.practice-block {
+  width: 475px;
+  height: 335px;
+  padding-left: 122px;
+  margin-right: 100px;
+}
+
+.practice-title {
+  text-align: left;
+}
+
+.practice-text {
+  margin: 24px 0;
+  width: 371px;
+}
+
+.ladybug {
+  display: block;
+  width: 287px;
+  height: 287px;
+  margin-left: 100px;
+}
+
+.footer {
+  padding: 120px 0;
+  text-align: center;
+  font-size: 15px;
+}
